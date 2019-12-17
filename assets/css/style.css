@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito&display=swap:100,200,300,400,500,600,700');
+
+
+
+/*--------------------------------------Colors*/
+.content-color{
+    color: #009eae;
+}
+.content-color2 {
+     color: #616161;
+}
+.bg-container{
+    background-color: #efefef;
+}
+
+
+/*------------------------------------SPECIAL PADDINGS/MARGINS/TEXT */
+
+.uppercase{
+    text-transform: uppercase;
+}
+
+.welcome{
+    margin: 20px 0;
+    text-align: center;
+    font-size: 200%;
+}
+.description {
+    text-align: center;
+    margin: 20px 0;
+    padding: 0px 25px 25px 0px;
+}
+header{
+    height: 100px;
+}
+
+.link {
+    text-decoration: none;
+    border-bottom: 1px solid #616161;
+}
+.hr-text{
+width:20%;
+}
+
+/*--------------------------------------Header*/
+
+#logo{ 
+    max-width: 180px;
+    max-height: 120px;
+    width: auto;
+    height: auto;
+    float: left; 
+    font-size: 280%;
+    margin-left: 30px;
+    
+}
+#logo , #menu{
+    line-height: 75px;
+}
+ 
+ .text{
+     font-family: "Nunito", sans-serif;
+ }
+#menu{
+    font-size: 115%;
+    font-family: "Nunito", sans-serif;
+    list-style-type: none;
+    letter-spacing: 4px;
+    bottom: 0px;
+}
+
+.menuitem{
+    height: 120px;
+    text-align: right;
+    padding: 0;
+    display: inline;
+}
+#menu a, {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid #4dd0e1;
+}
+
+.active{
+     border-bottom: 1px solid #4dd0e1;
+}
+/*--------------------------------------------- Images */
+
+#hero-image{
+    height:600px;
+    width: 100%;
+    background: url("../images/heroimage3.jpg") no-repeat center center;
+    background-size: cover;
+    background-color: #efefef;
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+
+}
+
+#hero-outer{
+    height:600px;
+    width: 100%;
+    overflow:hidden;
+    position: relative;
+}
+
+@keyframes hero-zoom {
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.1);
+    }
+}
+
+#cover-text h5{
+    padding-left: 10px;
+    
+}
+
+#cover-text {
+    color: #ffffff;
+    font-size: 90%;
+    font-family: "Nunito", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+
+    padding-top: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+    background-color: rgba(241, 109, 107, .7);
+
+    bottom:30px;
+    right: 120px;
+
+    position: absolute;
+
+}
+
+/*-------------------------------------Circle Images*/
+
+#center-about{
+    padding: 75px;
+  
+    margin:0 auto;
+}
+#hand-love-image{
+    height:200px;
+    width: 100%;
+    background: url("../images/4helpalltoppage3.jpg") no-repeat center center;
+    background-size: cover;
+}
+
+#circle-container{
+    width: 230px;
+    height: 230px;
+    padding:30px;
+    border-style: solid;
+    border-color:#616161;
+    border-width: 1px;
+    border-radius: 50%;
+    margin:0 auto;
+    align:center;
+
+}
+ 
+#circle-cover-bg{
+    background: url(../images/2helpall-form.jpg) no-repeat center center;
+    height:100%;
+    border-radius: 50%;
+    background-size: cover;
+}
+.circle-container2{
+    width: 300px;
+    height: 300px;
+    padding:8px;
+    border-style: solid;
+    border-color:#616161;
+    border-width: 1px;
+    border-radius: 50%;
+    margin:0 auto;
+    align:center;
+
+}
+
+#circle-cover-bg-charities {
+    background: url(../images/hands-charities.jpg) repeat center center;
+    height:100%;
+    border-radius: 50%;
+    background-size: cover;
+    animation-name: charities-zoom;
+    animation-duration: 20s;
+    animation-fill-mode: forwards;
+}
+
+
+#circle-cover-bg-charities2 {
+    background: url(../images/hands-charities2.jpg) repeat center center;
+    height:100%;
+    border-radius: 50%;
+    background-size: cover;
+    padding-bottom: 15px;
+    line-height: 12px;
+    animation-name: charities-zoom;
+    animation-duration: 20s;
+    animation-fill-mode: forwards;
+}
+
+#charities-outer{
+    height:300px;
+    width: 100%;
+    overflow:hidden;
+    position: relative;
+}
+
+@keyframes charities-zoom {
+    from{
+        transform: scale(0.6);
+    }
+    to{
+        transform: scale(1.1);
+    }
+}
+
+
+
+
+/*------------------------------------------------------------footer*/
+
+#footer{
+    background-color: #4ad3d8;
+    height: 150px;
+    font-size: 200%;
+    align: center;
+    padding: 75px;
+}
+/*-------------------------------------------------------------Hover*/
+a:hover {
+    border-bottom: 1px solid #4ad3d8;
+}

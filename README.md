@@ -1,27 +1,29 @@
-Help All
+#Help All
  
- - Help All is an opportunity for those who are willing  to help find a place where they can help more people at the same time, focused  in the biggest  charities  in Ireland Help All provides the simple tool where in one donation the users can help 10 institutions. 
+ #Help All is an opportunity for those who are willing  to help find a place where they can help more people at the same time, focused  in the biggest  charities  in Ireland Help All provides the simple tool where in one donation the users can help 10 institutions.#
 
 
-UX:
+##UX:
 - Made for those who have the will to help fueled by the desire to increase aid, we provide a simple way to donate by credit card an amount that will be shared between  10 institutions. 
 
 - Nowadays  people are always trying  to find the easiest  way to solve their problems or to get what they want, Help All is the bridge between practicality and porpuse, with simplicity we deliver the opportunity to help those who need help.
 
 -To developer the first sketch of this project was used the wireframe "Balsamiq.cloud" where it still hosted ( https://balsamiq.cloud/suhbz5n/pour9lw ).
-
-Features:
+---------------------------------------------------------------------------------------
+##Features:  
 Information and Contribution 
 
-Existing Features:
+#Existing Features:#  
 Feature 1 - Information: allows the user to know more about each institution  and feels confident to make a donation.
+
 Feature 2 - Contribuition: through a form you can fill up your credit card details allowing  the user to help more charities doing just one donation. 
 
-Future Features: 
+#Future Features:#  
  Integration Feature: allowing users to send another charities to be part of the team, those charities could be part of the existent group or be integrated to a new one. Other option would be a list with a Radio Button allowing the user to pick the charities that they would like to donate to.
+ 
  Feature 2 : allowing the user to see who much money each charity  is raising  so far. 
-
-Technologies Used:
+----------------------------------------------------------------------------------------
+##Technologies Used:
  In this project HTML5 and CSS3 are the used languages.
 
  It was also composed by using of:
@@ -34,8 +36,8 @@ Color Tool: https://material.io/
 Hover: https://ianlunn.github.io/
 
 
---------------------------------------------------------------------------------------->
-Testing
+----------------------------------------------------------------------------------------
+##Testing
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
 Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
@@ -63,10 +65,13 @@ Different configuration files?
 Separate git branch?
 In addition, if it is not obvious, you should also describe how to run your code locally.
 ---------------------------------------------------------------------------------
-Credits
+##Credits
 
 Content
 The text for section Y was copied from the Wikipedia article Z
+
+https://www.fbfs.com/learning-center/6-surprising-facts-about-charitable-giving
+https://www.charitiesregulator.ie/media/1564/indecon-social-and-economic-impact-report-2018.pdf
 
 Media:
 
