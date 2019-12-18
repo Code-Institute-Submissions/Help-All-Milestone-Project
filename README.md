@@ -28,12 +28,13 @@ Feature 2 - Contribuition: through a form you can fill up your credit card detai
 
  It was also composed by using of:
 
-Bootstrap: https://getbootstrap.com/
-Font-Awesome: https://fontawesome.com/
-Balsamiq: https://balsamiq.cloud/
-Google-Fonts:https://fonts.google.com/
-Color Tool: https://material.io/
-Hover: https://ianlunn.github.io/
+[Bootstrap](https://getbootstrap.com/) 
+[Font-Awesome](https://fontawesome.com/) 
+[Balsamiq](https://balsamiq.cloud/)
+[Google-Fonts](https://fonts.google.com/)
+[Color Tool](https://material.io/) 
+[CSS tricks](https://css-tricks.com/)
+[Hover](https://ianlunn.github.io/) 
 
 
 ----------------------------------------------------------------------------------------
@@ -69,13 +70,30 @@ In addition, if it is not obvious, you should also describe how to run your code
 
 Content
 The text for section Y was copied from the Wikipedia article Z
+The Text content from the index.html(page1) and the first paragraph of our-team.html(page2) was copied from:
+[Wheel](https://www.wheel.ie/policy-and-research/about-our-sector)
 
-https://www.fbfs.com/learning-center/6-surprising-facts-about-charitable-giving
-https://www.charitiesregulator.ie/media/1564/indecon-social-and-economic-impact-report-2018.pdf
+
+
+The Text from the text section on Our-team.html (page 2) was copied from "About Us" respectively on:
+
+[Irish Guide Dogs for the Blind](https://guidedogs.ie/)
+[Enable Ireland](https://www.enableireland.ie/)
+[Irish Cancer Society](https://www.cancer.ie/)
+[Irish Wheelchair Association](https://www.iwa.ie/)
+[Focus Ireland](https://www.focusireland.ie/)
+[Habitat for Humanity (Ireland)](https://www.habitatireland.ie/)
+[Down Syndrome Ireland](https://downsyndrome.ie/)
+[Make a Wish Ireland](https://www.makeawish.ie/)
+[Autism Assistance Dogs Ireland](https://www.autismassistancedogsireland.ie/)
+[Irish Heart Foundation](https://irishheart.ie/)
 
 Media:
 
-https://www.shutterstock.com/
+[Shutter](https://www.shutterstock.com/)
 
 Acknowledgements
-I received inspiration for this project from X
+I received inspiration for this project from 
+
+https://www.fbfs.com/learning-center/6-surprising-facts-about-charitable-giving
+https://www.charitiesregulator.ie/media/1564/indecon-social-and-economic-impact-report-2018.pdf

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Nunito&display=swap:100,200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Nunito&display=swap:100,200,300,400,500,600,700|Nanum+Pen+Script:100,200,300,400,500,600,700');
 
 
 
@@ -10,9 +10,16 @@
      color: #616161;
 }
 .bg-container{
+    background-color: rgba(46, 187, 197, 0.664);;
+}
+.bg-container-section{
     background-color: #efefef;
 }
-
+.bnt-color{
+    color: rgb(248, 248, 248);
+    background-color: rgba(204, 162, 127, 0.87);
+    border-color: #efefef;
+}
 
 /*------------------------------------SPECIAL PADDINGS/MARGINS/TEXT */
 
@@ -41,48 +48,56 @@ header{
 .hr-text{
 width:20%;
 }
-
-/*--------------------------------------Header*/
-
-#logo{ 
-    max-width: 180px;
-    max-height: 120px;
-    width: auto;
-    height: auto;
-    float: left; 
-    font-size: 280%;
-    margin-left: 30px;
-    
-}
-#logo , #menu{
-    line-height: 75px;
-}
- 
- .text{
+.text{
      font-family: "Nunito", sans-serif;
  }
-#menu{
+ .pad{
+     padding-bottom: 15px;
+ }
+ .social-pad{
+     margin-top: 25px;
+ }
+ .no-padding{
+     padding-left: 0px;
+ }
+ .smaller-font-sizer{
+     font-size: 70%;
+ }
+
+ body::before {
+  content: "";
+  position: fixed;
+  top: -10px;
+  left: 0;
+  width: 100%;
+  height: 10px;
+  box-shadow: 0px 0 10px rgba(0, 0, 0, 0.8);
+  z-index: 100;
+}
+/*--------------------------------------Header*/
+
+#logo{
+    float: left; 
+    font-size: 380%;
+    font-family: 'Nanum Pen Script', cursive;
+    letter-spacing: 4px;
+    margin-top: 15px;
+    margin-left: 50px;
+}
+
+.menu{
     font-size: 115%;
     font-family: "Nunito", sans-serif;
     list-style-type: none;
     letter-spacing: 4px;
     bottom: 0px;
+    line-height: 75px;
 }
-
-.menuitem{
-    height: 120px;
-    text-align: right;
-    padding: 0;
-    display: inline;
-}
-#menu a, {
+a {
     text-decoration: none;
-    color: inherit;
+    color: #616161;
 }
 
-#menu a:hover {
-    border-bottom: 1px solid #4dd0e1;
-}
 
 .active{
      border-bottom: 1px solid #4dd0e1;
@@ -145,7 +160,18 @@ width:20%;
     position: absolute;
 
 }
-
+#hand-love-image{
+    height:200px;
+    width: 100%;
+    background: url("../images/3helpalltoppage2.jpg") no-repeat center center;
+    background-size: cover;
+}
+#hands-clap-image{
+    height:200px;
+    width: 100%;
+    background: url("../images/4helpalltoppage33.jpg") no-repeat center center;
+    background-size: cover;
+}
 /*-------------------------------------Circle Images*/
 
 #center-about{
@@ -153,12 +179,7 @@ width:20%;
   
     margin:0 auto;
 }
-#hand-love-image{
-    height:200px;
-    width: 100%;
-    background: url("../images/4helpalltoppage3.jpg") no-repeat center center;
-    background-size: cover;
-}
+
 
 #circle-container{
     width: 230px;
@@ -191,6 +212,7 @@ width:20%;
     align:center;
 
 }
+
 
 #circle-cover-bg-charities {
     background: url(../images/hands-charities.jpg) repeat center center;
@@ -227,23 +249,142 @@ width:20%;
         transform: scale(0.6);
     }
     to{
-        transform: scale(1.1);
+        transform: scale(1.0);
     }
 }
+.circle-container3{
+    width: 85px;
+    height: 85px;
+    padding:8px;
+    border-style: solid;
+    border-color:#616161;
+    border-width: 1px;
+    border-radius: 50%;
+    margin:0 auto;
+    align:center;
 
+}#circle-igd-bg{
+    background: url(../images/irishguidedogs.png) no-repeat center center;
+    height:100%;
+    border-radius: 50%;
+    background-size: cover;
+}
+}#circle-eni-bg{
+    background: url(../images/enableireland.jpg) no-repeat center center;
+    height:100%;
+    border-radius: 50%;
+    background-size: cover;
+}
+}#circle-ic-bg{
+    background: url(../images/irishcancersociety.png) no-repeat center center;
+    height:100%;
+    border-radius: 50%;
+    background-size: cover;
+}
+}#circle-iw-bg{
+    background: url(../images/irishwheelchair.png) no-repeat center center;
+    height:100%;
+    border-radius: 50%;
+    background-size: cover;
+}
+}#circle-fci-bg{
+    background: url(../images/focusirenland.png) no-repeat center center;
+    height:100%;
+    border-radius: 50%;
+    background-size: cover;
+}
+}#circle-hhi-bg{
+    background: url(../images/habitatforhumanity.jpg) no-repeat center center;
+    height:100%;
+    border-radius: 50%;
+    background-size: cover;
+}
+}#circle-dsi-bg{
+    background: url(../images/downsyndrom.jpg) no-repeat center center;
+    height:100%;
+    border-radius: 50%;
+    background-size: cover;
+}
+}#circle-mwi-bg{
+    background: url(../images/makeawish.jpg) no-repeat center center;
+    height:100%;
+    border-radius: 50%;
+    background-size: cover;
+}
+}#circle-aad-bg{
+    background: url(../images/aadi.jpg) no-repeat center center;
+    height:100%;
+    border-radius: 50%;
+    background-size: cover;
+}
+}#circle-ihf-bg{
+    background: url(../images/irishheart.png) no-repeat center center;
+    height:100%;
+    border-radius: 50%;
+    background-size: cover;
+}
+-/*
+.circle-container4{
+    width: 180px;
+    height: 180px;
+    padding:8px;
+    border-style: solid;
+    border-color:#616161;
+    border-width: 1px;
+    border-radius: 50%;
+    margin:0 auto;
+    align:center;
+
+}
+--*/
+
+#circle-cover-bg-form {
+    background: url(../images/formimage.jpg) repeat center center;
+    height:100%;
+    background-size: cover;
+  
+}
 
 
 
 /*------------------------------------------------------------footer*/
 
 #footer{
-    background-color: #4ad3d8;
-    height: 150px;
+    background-color:rgba(46, 187, 197, 0.664);
+    min-height: 150px;
     font-size: 200%;
     align: center;
     padding: 75px;
 }
+.footer-msg{
+    color: #616161;
+    font-family: 'Nanum Pen Script', cursive;
+}
 /*-------------------------------------------------------------Hover*/
 a:hover {
-    border-bottom: 1px solid #4ad3d8;
+    color: rgba(61, 61, 61, 0.5);
+    
+}
+.footer-hover:hover{
+    color: rgba(221, 218, 217, 0.9)
+}
+
+.grow { transition: all .2s ease-in-out; }
+
+.grow:hover { transform: scale(1.1); }
+
+.btn-pulse{ transition: all .2 ease-in-out}
+
+.btn-pulse:hover{ transform: scale(1.1);}
+/*---------------------------------------------------------Form*/
+.form{
+    padding-top: 30px;
+    margin-left: 15px;
+    min-height: 600px;
+}
+.form2 {
+    min-height: 300px;
+    padding: 40px;
+    margin: 40px;
+
 }
