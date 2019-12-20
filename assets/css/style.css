@@ -1,6 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Nunito&display=swap:100,200,300,400,500,600,700|Nanum+Pen+Script:100,200,300,400,500,600,700');
-
-
+@import url('https://fonts.googleapis.com/css?family=Nanum+Pen+Script|Nunito&display=swap');
 
 /*--------------------------------------Colors*/
 .content-color{
@@ -20,6 +18,10 @@
     background-color: rgba(204, 162, 127, 0.87);
     border-color: #efefef;
 }
+.bg-nav{
+    background-color: transparent;
+    color: #616161;
+}
 
 /*------------------------------------SPECIAL PADDINGS/MARGINS/TEXT */
 
@@ -28,7 +30,7 @@
 }
 
 .welcome{
-    margin: 20px 0;
+   
     text-align: center;
     font-size: 200%;
 }
@@ -51,20 +53,40 @@ width:20%;
 .text{
      font-family: "Nunito", sans-serif;
  }
- .pad{
-     padding-bottom: 15px;
- }
- .social-pad{
-     margin-top: 25px;
- }
- .no-padding{
-     padding-left: 0px;
- }
- .smaller-font-sizer{
-     font-size: 70%;
+ .font-text2{
+     font-family: 'Nanum Pen Script', cursive;
+     font-size: 150%;
  }
 
- body::before {
+.pad{
+     padding-bottom: 15px;
+ }
+.pad-home{
+    padding:65px;
+}
+.pad-our-team{
+    padding-top: 30px;
+}
+.pad-p{
+    padding:0px 45px;
+}
+.social-pad{
+     margin-top: 25px;
+ }
+.no-padding{
+     padding-left: 0px;
+ }
+.smaller-font-sizer{
+     font-size: 70%;
+}
+ .font-size{
+     font-size: 120%;
+ }
+ .float-right{
+     float: right;
+ }
+
+body::before {
   content: "";
   position: fixed;
   top: -10px;
@@ -78,7 +100,8 @@ width:20%;
 
 #logo{
     float: left; 
-    font-size: 380%;
+    font-size: 8em;
+    color: rgba(61, 61, 61, 0.8);
     font-family: 'Nanum Pen Script', cursive;
     letter-spacing: 4px;
     margin-top: 15px;
@@ -100,7 +123,7 @@ a {
 
 
 .active{
-     border-bottom: 1px solid #4dd0e1;
+     border-bottom: 1px solid #616161;
 }
 /*--------------------------------------------- Images */
 
@@ -123,13 +146,47 @@ a {
     position: relative;
 }
 
+
+#image-view1 {
+    background-attachment: fixed;
+    background-image: url("../images/1helpall.jpg");
+    background-position: bottom;
+    background-size: cover;
+    height: 80vh;
+    width: 100vw;
+    margin-bottom: 0px;
+    z-index: 1;
+    animation-name: hero-zoom;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;
+}
 @keyframes hero-zoom {
     from{
-        transform: scale(1);
+        transform: scale(0.8);
     }
     to{
-        transform: scale(1.1);
+        transform: scale(1.0);
     }
+}
+#image-view2 {
+    background-attachment: fixed;
+    background-image: url("../images/3helpalltoppage2.jpg");
+    background-position: bottom;
+    background-size: cover;
+    height: 80vh;
+    width: 100vw;
+    margin-bottom: 0px;
+    z-index: 1;
+}
+#image-view3 {
+    background-attachment: fixed;
+    background-image: url("../images/4helpalltoppage33.jpg");
+    background-position: bottom;
+    background-size: cover;
+    height: 80vh;
+    width: 100vw;
+    margin-bottom: 0px;
+    z-index: 1;
 }
 
 #cover-text h5{
@@ -172,11 +229,17 @@ a {
     background: url("../images/4helpalltoppage33.jpg") no-repeat center center;
     background-size: cover;
 }
+#thankful-image {
+    background: url(../images/logothanks.png) repeat center center;
+    height:430px;
+    background-size: cover;
+    
+}
 /*-------------------------------------Circle Images*/
 
 #center-about{
-    padding: 75px;
-  
+    padding-top: 75px;
+    padding-bottom: 30px;
     margin:0 auto;
 }
 
@@ -184,7 +247,7 @@ a {
 #circle-container{
     width: 230px;
     height: 230px;
-    padding:30px;
+    padding:0px;
     border-style: solid;
     border-color:#616161;
     border-width: 1px;
@@ -195,7 +258,7 @@ a {
 }
  
 #circle-cover-bg{
-    background: url(../images/2helpall-form.jpg) no-repeat center center;
+    background: url(../images/firstcircle.jpg) no-repeat center center;
     height:100%;
     border-radius: 50%;
     background-size: cover;
@@ -253,9 +316,9 @@ a {
     }
 }
 .circle-container3{
-    width: 85px;
-    height: 85px;
-    padding:8px;
+    width: 115px;
+    height: 115px;
+    padding:2px;
     border-style: solid;
     border-color:#616161;
     border-width: 1px;
@@ -263,87 +326,78 @@ a {
     margin:0 auto;
     align:center;
 
-}#circle-igd-bg{
+}
+#circle-igd-bg{
     background: url(../images/irishguidedogs.png) no-repeat center center;
     height:100%;
     border-radius: 50%;
     background-size: cover;
 }
-}#circle-eni-bg{
+#circle-eni-bg{
     background: url(../images/enableireland.jpg) no-repeat center center;
     height:100%;
     border-radius: 50%;
     background-size: cover;
 }
-}#circle-ic-bg{
+#circle-ic-bg{
     background: url(../images/irishcancersociety.png) no-repeat center center;
     height:100%;
     border-radius: 50%;
     background-size: cover;
 }
-}#circle-iw-bg{
+#circle-iw-bg{
     background: url(../images/irishwheelchair.png) no-repeat center center;
     height:100%;
     border-radius: 50%;
     background-size: cover;
 }
-}#circle-fci-bg{
-    background: url(../images/focusirenland.png) no-repeat center center;
+#circle-fci-bg{
+    background: url(../images/focusireland.jpg) no-repeat center center;
     height:100%;
     border-radius: 50%;
     background-size: cover;
 }
-}#circle-hhi-bg{
+#circle-hhi-bg{
     background: url(../images/habitatforhumanity.jpg) no-repeat center center;
     height:100%;
     border-radius: 50%;
     background-size: cover;
 }
-}#circle-dsi-bg{
+#circle-dsi-bg{
     background: url(../images/downsyndrom.jpg) no-repeat center center;
     height:100%;
     border-radius: 50%;
     background-size: cover;
 }
-}#circle-mwi-bg{
+#circle-mwi-bg{
     background: url(../images/makeawish.jpg) no-repeat center center;
     height:100%;
     border-radius: 50%;
     background-size: cover;
 }
-}#circle-aad-bg{
+#circle-aad-bg{
     background: url(../images/aadi.jpg) no-repeat center center;
     height:100%;
     border-radius: 50%;
     background-size: cover;
 }
-}#circle-ihf-bg{
+#circle-ihf-bg{
     background: url(../images/irishheart.png) no-repeat center center;
     height:100%;
     border-radius: 50%;
     background-size: cover;
 }
--/*
+
 .circle-container4{
-    width: 180px;
-    height: 180px;
+    width: 100px;
+    height: 100px;
     padding:8px;
-    border-style: solid;
-    border-color:#616161;
-    border-width: 1px;
     border-radius: 50%;
     margin:0 auto;
-    align:center;
+   
 
 }
---*/
 
-#circle-cover-bg-form {
-    background: url(../images/formimage.jpg) repeat center center;
-    height:100%;
-    background-size: cover;
-  
-}
 
 
 
@@ -353,17 +407,21 @@ a {
     background-color:rgba(46, 187, 197, 0.664);
     min-height: 150px;
     font-size: 200%;
+    margin: 0 auto;
     align: center;
-    padding: 75px;
+    padding: 50px;
 }
 .footer-msg{
     color: #616161;
     font-family: 'Nanum Pen Script', cursive;
 }
+.footer-align{
+    display: flex;
+    justify-content: center;
+}
 /*-------------------------------------------------------------Hover*/
 a:hover {
     color: rgba(61, 61, 61, 0.5);
-    
 }
 .footer-hover:hover{
     color: rgba(221, 218, 217, 0.9)
@@ -381,10 +439,21 @@ a:hover {
     padding-top: 30px;
     margin-left: 15px;
     min-height: 600px;
+
 }
 .form2 {
     min-height: 300px;
     padding: 40px;
     margin: 40px;
 
+}
+
+.card{
+    margin: 12px;
+    background: white;
+    border-radius: 4px;
+    padding: 25px;
+    font-weight: 100;
+    border: 1px solid black;
+    box-shadow: 1px 1px 10px 3px dimgrey;
 }
