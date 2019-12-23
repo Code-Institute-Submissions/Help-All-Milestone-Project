@@ -50,6 +50,7 @@ header{
 .hr-text{
 width:20%;
 }
+
 .text{
      font-family: "Nunito", sans-serif;
  }
@@ -253,7 +254,7 @@ a {
     border-width: 1px;
     border-radius: 50%;
     margin:0 auto;
-    align:center;
+
 
 }
  
@@ -272,7 +273,6 @@ a {
     border-width: 1px;
     border-radius: 50%;
     margin:0 auto;
-    align:center;
 
 }
 
@@ -324,7 +324,6 @@ a {
     border-width: 1px;
     border-radius: 50%;
     margin:0 auto;
-    align:center;
 
 }
 #circle-igd-bg{
@@ -408,7 +407,6 @@ a {
     min-height: 150px;
     font-size: 200%;
     margin: 0 auto;
-    align: center;
     padding: 50px;
 }
 .footer-msg{
@@ -431,7 +429,7 @@ a:hover {
 
 .grow:hover { transform: scale(1.1); }
 
-.btn-pulse{ transition: all .2 ease-in-out}
+.btn-pulse{ transition: all 1s ease-in-out}
 
 .btn-pulse:hover{ transform: scale(1.1);}
 /*---------------------------------------------------------Form*/
