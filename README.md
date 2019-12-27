@@ -1,6 +1,6 @@
 # Help All
  
-"Help All" is an opportunity for those who are willing  to help find a place where they can help more people at the same time, focused  in the biggest  charities  in Ireland Help All provides the simple tool where in one donation the users can help 10 institutions.#
+"Help All" is an opportunity for those who are willing  to help find a place where they can help more people at the same time, focused  in the biggest  charities  in Ireland Help All provides the simple tool where in one donation the users can help 10 institutions.
 
 
 ## UX:
@@ -10,7 +10,7 @@
 
 - The colours and and illustrations  were chosen with the purpose of bringing lightness  encouraging people to be part of this, helping people and also trusting the project’s  idea.
 
-- To developer the first sketch of this project was used the wireframe "Balsamiq.cloud" where it still hosted ( https://balsamiq.cloud/suhbz5n/pour9lw ).
+- To developer the first sketch of this project was used the wireframe [Balsamiq.cloud](https://balsamiq.cloud/suhbz5n/pour9lw) where it still hosted .
 ---------------------------------------------------------------------------------------
 ## Features:  
 Information and Contribution 
@@ -50,14 +50,22 @@ Feature 2 - Contribuition: through a form you can fill up your credit card detai
 ## Testing
 This site was manually tested to ensure compatibility and responsiveness.
 
+Also:
+
+All the links to external websites are working perfectly
+
+The back and forward button  does not crash the page
+
+The form will not allow  you leave the required  places empty, in this case a message will pop-up asking to fill the field, except on the e-mail field since it would be optional.
+
 ## Deployment
 The live site is deployed on GitHub pages. It uses the master branch. It updates each time there is a new push to the repository.
 
 ---------------------------------------------------------------------------------
 ## Credits
 
-Content
-The text for section Y was copied from the Wikipedia article Z
+Content: 
+
 The Text content from the index.html(page1) and the first paragraph of our-team.html(page2) was copied from:
 
 [Wheel](https://www.wheel.ie/policy-and-research/about-our-sector)
@@ -92,7 +100,7 @@ Media:
 [freelogodesign](https://editor.freelogodesign.org/)
 
 Acknowledgements
-I received inspiration for this project from 
+I received inspiration for this project from the charities in ireland which make a big difference in many lifes, trying to achieve a better social situation.
 
-https://www.fbfs.com/learning-center/6-surprising-facts-about-charitable-giving
-https://www.charitiesregulator.ie/media/1564/indecon-social-and-economic-impact-report-2018.pdf
+[Six surpring facts about charitable giving](https://www.fbfs.com/learning-center/6-surprising-facts-about-charitable-giving)
+[2018 charity report](https://www.charitiesregulator.ie/media/1564/indecon-social-and-economic-impact-report-2018.pdf)
