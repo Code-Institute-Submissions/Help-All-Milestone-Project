@@ -97,10 +97,12 @@ The Text from the text section on Our-team.html (page 2) was copied from "About 
 Media:
 
 [Shutter](https://www.shutterstock.com/)
+
 [freelogodesign](https://editor.freelogodesign.org/)
 
 Acknowledgements
 I received inspiration for this project from the charities in ireland which make a big difference in many lifes, trying to achieve a better social situation.
 
 [Six surpring facts about charitable giving](https://www.fbfs.com/learning-center/6-surprising-facts-about-charitable-giving)
+
 [2018 charity report](https://www.charitiesregulator.ie/media/1564/indecon-social-and-economic-impact-report-2018.pdf)
